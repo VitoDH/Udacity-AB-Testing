@@ -7,8 +7,7 @@ This project' s content is a modified version of  [[shubhamlal11](https://github
 
 
 
-1. Experiment Overview: Free Trial Screener
-----------------------
+## 1. Experiment Overview: Free Trial Screener
 
 At the time of this experiment, Udacity courses currently have two options on the course overview page: "start free trial", and "access course materials". If the student clicks "start free trial", they will be asked to enter their credit card information, and then they will be enrolled in a free trial for the paid version of the course. After 14 days, they will automatically be charged unless they cancel first. If the student clicks "access course materials", they will be able to view the videos and take the quizzes for free, but they will not receive coaching support or a verified certificate, and they will not submit their final project for feedback.
 
@@ -33,10 +32,7 @@ In the experiment, Udacity tested a change where if the student clicked "start f
 
 
 
-2. Experimental Design
--------------------
-
-
+## 2. Experimental Design
 
 ### Metric Choice
 
@@ -90,8 +86,7 @@ The ultimate goal is to minimize student frustration and use the limited coachin
 
 
 
-3. Measuring Standard Deviation
-----------------------------
+## 3. Measuring Standard Deviation
 
 ***Analytical Estimate of Standard Deviation of Evaluation Metrics***
 
@@ -122,8 +117,7 @@ For each of the metrics the standard deviation is calculated for a sample size o
 
 
 
-4. Sizing
-------
+# 4. Sizing
 
 The following calculation is based on [Baseline Values](https://docs.google.com/spreadsheets/d/1MYNUtC47Pg8hdoCjOXaHqF-thheGpUshrFA21BAJnNc/edit#gid=0).
 
@@ -199,10 +193,10 @@ A 119 day experiment with 100% diversion of traffic presents two risks:
 
 
 
-5. Experiment Analysis
--------------------
+# 5. Experiment Analysis
 
 The experiment data can be found in the following links :
+
 * [Control Group Data](https://docs.google.com/spreadsheets/d/1Mu5u9GrybDdska-ljPXyBjTpdZIUev_6i7t4LRDfXM8/edit#gid=0) 
 * [Experiment Group Data](https://docs.google.com/spreadsheets/d/1Mu5u9GrybDdska-ljPXyBjTpdZIUev_6i7t4LRDfXM8/edit#gid=154400404)
 
@@ -368,9 +362,7 @@ Sign test is a nonparametric method to validate the result obtained above. The s
 </table>
 
 
-
-6. Conclusion
--------
+# 6. Conclusion
 
 An experiment was conducted in which potential Udacity students were diverted by cookie into two groups, experiment and control. The experiment group was asked to input the amount of time they are willing
 to devote to study, after clicking a "start free trial button", where as the control group was not. 
@@ -385,8 +377,7 @@ Analysis revealed the expected equal distribution of cookies into the control an
 
 
 
-7. Recommendation
---------------
+# 7. Recommendation
 
 This experiment was designed to determine whether filtering students as a function of study time commitment would improve the overall student experience and the coaches' capacity to support students who are likely to complete the course, without significantly reducing the number of students who continue past the free trial. 
 
@@ -394,14 +385,12 @@ A statistically and practically significant decrease in Gross Conversion was obs
 
 
 
-8. Follow-up Experiment
---------------------
+# 8. Follow-up Experiment
 
 The construction of student frustration could be assigned an operational definition of "cancel early," where a convenient definition and measure of early cancellation is prior to the end of the 14 day trial period in
 which payment is triggered. An early cancellation is not necessarily indicative of frustration but could be from other causes, such as a course not being aligned to the students needs or expectations in terms of content. For preventing early cancellation there are two primary logical timepoint opportunities for intervention, (1) pre-enrollment, and (2) post-enrollment but pre-payment.
 
-The first opportunity for intervention was explored above where in a poll regarding time commitment was used as to filter out students likely to become frustrated. This filter focused only on time commitment to the class and did not address other reasons why a student might become frustrated and cancel early. Even if the student was sincere in their response and diligent in their study, they may become frustrated if
-they don't have the suggested pre-requisite skills and experience. That is, their committed time may not be enough if they don't come in with the pre-requisite skill set. Adding a **checklist** of pre-requisite skills to the popup regarding time commitment may be informative. This experiment would leverage the infrastruture and data pipeline of the original experiment and be set up in the same way as the original, including the unit of diversion. The only difference would be the information in the form. If the student's answer meets the time and pre-requisite requirements (radio box checklist) they are directed to enroll in the free trial, otherwise they are encouraged to access the free version. This experiment would be low cost in terms of resources and may increase the selectivity of the pre-enrollment filter. A successful experiment would be one in which there is a significant decrease in Gross Conversion coupled to a significant increase in Net
+The first opportunity for intervention was explored above where in a poll regarding time commitment was used as to filter out students likely to become frustrated. This filter focused only on time commitment to the class and did not address other reasons why a student might become frustrated and cancel early. Even if the student was sincere in their response and diligent in their study, they may become frustrated if they don't have the suggested pre-requisite skills and experience. That is, their committed time may not be enough if they don't come in with the pre-requisite skill set. Adding a **checklist** of pre-requisite skills to the popup regarding time commitment may be informative. This experiment would leverage the infrastructure and data pipeline of the original experiment and be set up in the same way as the original, including the unit of diversion. The only difference would be the information in the form. If the student's answer meets the time and pre-requisite requirements (radio box checklist) they are directed to enroll in the free trial, otherwise they are encouraged to access the free version. This experiment would be low cost in terms of resources and may increase the selectivity of the pre-enrollment filter. A successful experiment would be one in which there is a significant decrease in Gross Conversion coupled to a significant increase in Net
 Conversion.
 
 A variety of approaches could be used to intervene post-enrollment but pre-payment and could be deployed concurrently with pre-enrollment intervention. An ideal approach would be one which minimizes the use of additional coaching resources to best meet the original intent of the intervention. An effective approach may be to employ peer coaching/guidance by means of team formation. If a student has a team of other students which they could consult, discuss coursework and frustrations with, and be accountable to, they may be more likely to stick out the growing pains and stay for the long term. The experiment would function in the following manner.
